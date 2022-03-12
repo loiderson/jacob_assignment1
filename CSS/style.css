@@ -9,6 +9,11 @@ body {
     }
 }
 
+@media screen and (max-height: 450px) {
+    .slideout {padding-top: 15px;}
+    .slideout a {font-size: 18px;}
+}
+
 h1, h2, h3 {
     color: #c4a7e7;
 }
@@ -140,4 +145,30 @@ label, textarea {
     display: block;
     margin-bottom: 10px;
     color: #c4a7e7;
+}
+
+.slideoutbutton .btn3 {
+    font-family: 'Roboto Mono', monospace;
+    border: none;
+    background-color: #c4a7e7;
+    color: #191724;
+}
+
+.slideoutbutton {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.savedelete {
+    padding-top: 200px;
+    padding-left: 5px;
+    border: none;
+}
+
+.savedelete .savedel {
+    font-family: 'Roboto Mono', monospace;
+    color: #191724;
+    background-color: #c4a7e7;
+    border: none;
 }
