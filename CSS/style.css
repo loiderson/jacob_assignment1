@@ -1,0 +1,19 @@
+body {
+    background-color: #191724;
+}
+
+h1, h2, h3 {
+    color: #c4a7e7;
+}
+
+p {
+    color: #e0def4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+p {
+    font-family: 'Kaisei Tokumin', serif;
+}
