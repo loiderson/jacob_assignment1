@@ -33,19 +33,48 @@ p {
     flex-direction: row;
 }
 
-a:link {
+.aclass:link {
     color:#c4a7e7
 }
 
-a:visited {
+.aclass:visited {
     color: #c4a7e7;
 }
 
-a:hover {
+.aclass:hover {
     color: #e0def4;
 }
 
 footer {
     position: absolute;
     bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    background-color: #393552;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.btn2, .btn2tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0def4;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.btn2tag {
+    background-color: #191724;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.fa {
+    text-align: center;
+    color: #c4a7e7;
 }
